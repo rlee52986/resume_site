@@ -1,3 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    /* background-color: #f7f7f7; */
+}
+
 #heading, #clickMeBtn {
     text-align: center;
 }
@@ -11,3 +25,10 @@ body {
     height: 75px;
 }
 
+.logo {
+    color: white;
+}
+
+h2 {
+     
+}
