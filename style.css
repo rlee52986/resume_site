@@ -1,119 +1,15 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: rgba(105, 105, 105);
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    font-size: 18px;
-}
-
-.nav-links li{
-    list-style: none;
-}
-
-.nav-links a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-}
-
-.burger {
-    display: none;
-}
-
-.burger div{
-    width: 25px;
-    height: 2px;
-    background-color: rgb(255, 255, 255);
-    margin: 5px;
-    transition: all 0.2s ease;
-}
-
-#heading, #clickMeBtn {
+h1 {
     text-align: center;
 }
 
-body {
-    color: #454545;
+button {
+    align-items: center;
+    width: 120px;
+    margin: auto;    
+    display: ;
 }
 
 #logo {
-    width: 75px;
-    height: 75px;
-}
-
-.logo {
-    color: white;
-}
-
-@media screen and (max-width: 1024px) {
-    .nav-links {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-    .nav-links {
-        position: absolute;
-            right: 0px;
-            height: 92vh;
-            top: 8vh; 
-            background-color: rgba(105, 105, 105);
-            display: flex;
-            flex-direction: column;
-            align-items: center;   
-            width: 25%;     
-            transform: translateX(100%);
-            transition: transform 0.5s ease-in;
-    }
-    .nav-links li {
-        opacity: 0;
-    }
-    .burger {
-        display: block;
-        cursor: pointer;
-    }
-}
-
-.nav-active {
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.fade .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.fade .line2 {
-    opacity: 0;
-}
-
-.fade  .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+    height: 100px;
+    width: 100px;
 }
